@@ -96,6 +96,7 @@ const GaugeComponent = (props: Partial<GaugeComponentProps>) => {
   }, [props]);
 
   const { id, style, className, type } = props;
+  console.log("Render");
   return (
     <div
       id={id}
